@@ -28,11 +28,7 @@ return require('packer').startup(function(use)
         end,
     }
 
-  -- My plugins here
-
-  -- use 'foo1/bar1.nvim'
-  -- use 'foo2/bar2.nvim'
-
+  use {'neoclide/coc.nvim', branch = 'release'}
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if packer_bootstrap then

@@ -5,4 +5,4 @@ vim.g.loaded_netrwPlugin = 1
 -- empty setup using defaults
 require("nvim-tree").setup()
 
-vim.keymap.set('n', '<c-f>', ':NvimTreeFindFileToggle<CR>')
+vim.keymap.set('n', '<c-D>', ':NvimTreeFindFileToggle<CR>')
